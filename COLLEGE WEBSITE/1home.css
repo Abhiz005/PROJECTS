@@ -1,0 +1,289 @@
+body{
+  background-color: rgb(177, 251, 227);
+}
+.topsies{
+  height: 106px;
+  width: 567px;
+}
+h1{
+  text-align: center;
+  font-size: 50px;
+  background-image: url(images/background2.jpg);
+  background-repeat: no-repeat;
+  background-size: 1621px 207px;
+  color:rgba(240, 116, 49, 0.954);
+  font-family: 'Playfair Display', serif;
+  margin: -8px -8px -8px -8px;
+}
+.topsies{
+  height: 45px;
+  width: 62px;
+  margin-top: -16px;
+  padding-right: 17px;
+}
+nav{
+  width: 100%;
+  padding: 20px 0px 0px 0px;
+  text-align: center;
+}
+.logo{
+  height: 54px;
+  width: 150px;
+  cursor: pointer;
+  margin: 3px 0px 0px -38px;
+
+}
+nav ul{
+  background: #242c42;
+  margin: -28px -8px 3px -8px;
+  height: 60px; 
+}
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  color: white;
+  padding-right: 60px;
+}
+a{
+  text-decoration: none;
+}
+a:visited {
+  color: aqua;
+}
+a:hover {
+  color: hotpink;
+}
+a:active {
+  color: blue;
+}
+section{
+  align-content: center;
+}
+.navbar ul li{
+  margin: 21px 35px;
+  position: relative;
+}
+.navbar ul li a{
+  color: rgb(0, 249, 249);
+}
+.navbar ul li::after{
+  content:'';
+  height: 3px;
+  width:0;
+  background: #e9efe4;
+  position: absolute;
+  left: -10px;
+  bottom: -10px;
+  transition: 0.4s;
+}
+.navbar ul li:hover::after{
+  width: 120%;
+}
+
+ul{
+  list-style: none;
+}
+.marquee1{
+  font-size: 22px;
+  background-color: black;
+  color: white;
+  width:101%; 
+  direction:left; 
+  height:28px;
+  margin: -4px -8px;
+}
+
+
+/*LOGIN CSS*/
+.page{
+  height:100%;
+  width:  1515px;
+  background-image: url(images/banner1.jpg);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  border-radius: 10px;
+  margin: -1px 0px 0px -6px;
+}
+.form-box{
+  width: 437px;
+  height: 480px;
+  position: relative;
+  margin: 6% auto;
+  background: #fff;
+  padding: 5px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.button-box{
+  width: 380px;
+  margin: 0px -21px 0px 30px;
+  position: relative;
+  box-shadow: 0 0 20px #ff61241f;
+  border-radius: 30px;
+}
+.toggle-btn{
+  padding: 8px 15px 10px 80px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  outline: none;
+  position: relative;
+  margin-left: -27px;
+}
+#btn{
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 110px;
+  height: 100%;
+  background: linear-gradient(to right,#ff105f,#ffad06);
+  border-radius: 30px;
+  transition: .5s;
+
+}
+.social-icons{
+  margin: -83px auto;
+  text-align: center;
+}
+.social-icons img{
+  width: 30px;
+  margin: 0 12px;
+  box-shadow: 0 0 20px 0 #7f7f7f3d;
+  cursor: pointer;
+  border-radius: 50%;
+
+}
+.input-group{
+  top : 180px;
+  position: absolute;
+  width: 280px;
+  transition: .5s;
+
+}
+.input-field{
+  width: 100%;
+  padding: 10px 0;
+  margin: 5px 0;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid #999;
+  outline:none;
+  background:transparent;
+}
+.submit-btn{
+  width: 85%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  background: linear-gradient(to right,#ff105f,#ffad06);
+  border-radius: 30px;
+  border: 0;
+  outline: none;
+  border-radius: 30px;
+}
+.check-box1{
+  margin: 9px 10px 40px 0;
+}
+.check-box2{
+  margin: 20px 7px 35px 0;
+}
+
+#login{
+  left: 78px;
+
+}
+#register{
+  left: 450px;
+  
+}
+#admin{
+left: 800px;
+}
+.headname{ 
+  color: white;
+  font-family: 'Playfair Display', serif;
+  display: block;
+  background: linear-gradient(to right,#ff105f,#ffad06);
+  border-radius: 0px;
+  border: 0;
+  outline: none;
+  margin-top: -5px;
+  margin-left: -5px;
+  margin-right: -5px;
+  margin-bottom: 58px;
+  border-radius: 10px;
+}
+/* LoginCssEnd */
+.principle-img
+{
+  display: inline-block;
+    max-width: 100%;
+    height: 300px;
+    padding: 4px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+    margin-top: -16px;
+}
+.para{
+  margin-left: 10px;
+  padding: 0px;
+    line-height: 33px;
+    font-size: 17px;
+    text-align: justify;
+}
+.picback
+{
+ background: lightcyan;
+ margin: -6px -8px 8px -8px;
+ padding: 6px 0px 6px 8px ;
+}
+.pic{
+  margin-left: 12px;
+}
+div.polaroid {
+  display: inline-block;
+  margin-right: -6px;
+  margin-left: 17px;
+  padding-top: 10px;
+  padding-left: 25px;
+  padding-right: 27px;
+  width: 12%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+div.container {
+  text-align: center;
+  padding: 2px 7px 1px 0px;
+}
+/* ABOUTcss */
+.aback
+{
+background-color: rgb(183, 255, 253);
+margin-top: -14px;
+border-radius: 10px;
+}
+/* ADMISSION */
+.marquee2
+{
+  background-color: #adf994;
+  border-radius: 15px;
+}
+.addm1
+{
+background-color: white;
+border-radius: 10px;
+}
+.notice
+{
+background-color: #8fff93;
+border-radius: 10px;
+font-size: 22px;
+}

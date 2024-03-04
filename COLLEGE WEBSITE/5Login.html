@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="1home.css">
+</head>
+<body>
+    <div class="navbar">
+        <nav>   
+          <ul>
+             <img src="images\sies1.png" class="logo" align="left"> 
+             <li><a href="1Home.html">HOME</a></li>
+             <li><a href="2About.html">ABOUT</a></li>
+             <li><a href="3Acadamics.html">ACADAMICS</a></li>
+             <li><a href="4Admission.html">ADMISSION </a></li>
+             <li><a href="5Login.html">LOGIN</a></li> 
+             <li><a href="6Staff.html">STAFF</a></li>
+             <li><a href="7More.html">MORE</a></li>
+          </ul>
+        </nav>
+      </div>
+
+
+      <div class="page">
+        <div class="form-box"> 
+          <h1 align="center" class="headname">S.I.E.S</h1>
+          <div class="button-box">
+             <div id="btn"></div>
+             <button type="button" class="toggle-btn" onclick="login()">Log in</button>
+             <button type="button" class="toggle-btn" onclick="register()">Register</button>
+             <button type="button" class="toggle-btn" onclick="admin()">Staff Login</button>
+          </div>
+          <div class="social-icons">
+           <a href="https://www.facebook.com/"> <img src="images/fb.png"></a>
+           <a href="https://twitter.com/i/flow/login"> <img src="images/tw.png"></a>
+            <a href="https://www.google.com/"> <img src="images/gp.png"></a>
+            </div>
+            <form id="login"class="input-group">
+               <input type="text" class="input-field" placeholder="User Id" required>
+               <input type="password" class="input-field" placeholder="Enter Password" required>
+               <input type="checkbox" class="check-box1"><span>Remember Password</span>
+               <button type="submit" class="submit-btn">Log in</button>
+           </form>
+       <form id="register" class="input-group">
+             <input type="text" class="input-field" placeholder="User Id" required> 
+             <input type="email"class="input-field" placeholder="Email.id" required> 
+             <input type="password" class="input-field" placeholder="Password" required>
+             <input type="checkbox" class="check-box2">I agree to the terms & conditions
+             <button type="submit" class="submit-btn">Register</button>
+       </form>
+          <form id="admin" class="input-group">
+             <input type="text" class="input-field" placeholder="Staff Id" required>
+             <input type="password" class="input-field" placeholder="Password" required>
+             <input type="checkbox" class="check-box2"><span>Remember Password</span>
+             <button type="submit" class="submit-btn">Log in</button>
+          </form>
+        </div>
+       </div>
+         <script src="Login.js"></script>
+</body>
+</html>
